@@ -74,7 +74,15 @@
                 "category": "Auto Hide",
                 "title": "Toggle Auto Hide Panel for Current Workspace"
             }
-        ]
+        ],
+        "menus": {
+            "view/title": [
+                {
+                    "command": "autoHide.toggleHideSideBar",
+                    "when": "true"
+                }
+            ]
+        }
     },
     "scripts": {
         "compile": "tsc -watch -p ./",
