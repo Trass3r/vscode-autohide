@@ -67,7 +67,11 @@
             {
                 "command": "autoHide.toggleHideSideBar",
                 "category": "Auto Hide",
-                "title": "Toggle Auto Hide Side Bar for Current Workspace"
+                "title": "Toggle Auto Hide Side Bar for Current Workspace",
+                "icon": {
+                    "dark": "pin",
+                    "light": "pin"
+                }
             },
             {
                 "command": "autoHide.toggleHidePanel",
